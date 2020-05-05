@@ -1,10 +1,10 @@
 import Foundation
 
-public struct Daniel{
-    public var text: String = "sasdasd"
+open class Daniel{
+    open var text: String = "sasdasd"
 
 
-    public func printCustomText(_ text: String){ 
+    open class func printCustomText(_ text: String){ 
       print("custom text -> \(text)")
     }
 }
