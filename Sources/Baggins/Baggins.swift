@@ -1,3 +1,5 @@
+import Foundation
+
 public struct Daniel{
     public var text: String = ""
 
