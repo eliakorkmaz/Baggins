@@ -2,7 +2,9 @@ import Foundation
 
 open class Daniel{
 
-    public init(){}
+    public static var shared = Daniel()
+
+    private init(){}
 
     open var text: String = "sasdasd"
 
