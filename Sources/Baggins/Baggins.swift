@@ -1,10 +1,12 @@
 import Foundation
 
-open class Daniel{
+open class Daniel:NSObject{
 
     public static var shared = Daniel()
 
-    private init(){}
+    public override init(){
+        super.init()
+    }
 
     open var text: String = "sasdasd"
 
