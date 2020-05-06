@@ -16,7 +16,7 @@ open class Daniel{
 
 
 public struct Happy { 
-
+    public init(){} 
     public var simpleText: String = "Heyooo"
 
     public func printHappiness(){
