@@ -13,3 +13,14 @@ open class Daniel{
         print("custom text -> \(text)")
     }
 }
+
+
+public struct Happy { 
+
+    public var simpleText: String = "Heyooo"
+
+    public func printHappiness(){
+        print("I am Happy")
+    }
+
+}
